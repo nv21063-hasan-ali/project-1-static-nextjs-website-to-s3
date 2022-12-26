@@ -94,7 +94,7 @@ function Article({ article }) {
         {formatDate(article.date)}
       </Card.Eyebrow>
       <Card.Description>{article.description}</Card.Description>
-      <Card.Cta>Read article</Card.Cta>
+      <Card.Cta>Learn more</Card.Cta>
     </Card>
   )
 }
@@ -139,7 +139,7 @@ function Newsletter() {
 function Resume() {
   let resume = [
     {
-      company: 'NVTC',
+      company: 'Hasan',
       title: 'CEO',
       logo: logoPlanetaria,
       start: '2019',

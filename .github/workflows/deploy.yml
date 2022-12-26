@@ -27,8 +27,4 @@ jobs:
         aws-access-key-id: ${{secrets.AWS_ACCESS_KEY_ID}}
         aws-secret-access-key: ${{secrets.AWS_SECRET_ACCESS_KEY}}
         aws-region: us-east-1
-<<<<<<< HEAD
     - run: aws s3 sync ./out/ s3://nv21063-project-1-static-web-hosting
-=======
-    - run: aws s3 sync ./out/ s3://
->>>>>>> 6df691970ddf40620f50424586b16af5aab890a6
