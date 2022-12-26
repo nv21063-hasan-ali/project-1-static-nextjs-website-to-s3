@@ -264,7 +264,7 @@ export default function Home({ articles }) {
           Cloud Architect
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            Im cloud architect student.
+            I’m cloud architect student.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
